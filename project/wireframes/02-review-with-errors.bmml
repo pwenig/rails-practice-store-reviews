@@ -2,7 +2,7 @@
   <controls>
     <control controlID="0" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="36" y="38" w="765" h="635" measuredW="450" measuredH="400" zOrder="0" locked="true" isInGroup="-1">
       <controlProperties>
-        <text>A%20Web%20Page%0Ahttp%3A//</text>
+        <text>A%20Web%20Page%0Ahttp%3A//localhost%3A3000/products/1/reviews/new</text>
       </controlProperties>
     </control>
     <control controlID="2" controlTypeID="com.balsamiq.mockups::Link" x="322" y="134" w="-1" h="-1" measuredW="109" measuredH="19" zOrder="1" locked="false" isInGroup="-1">
@@ -44,56 +44,51 @@
         <text>About%204%20days%20ago</text>
       </controlProperties>
     </control>
-    <control controlID="23" controlTypeID="com.balsamiq.mockups::Link" x="562" y="297" w="-1" h="-1" measuredW="82" measuredH="19" zOrder="8" locked="false" isInGroup="-1">
-      <controlProperties>
-        <text>%5B+%5D%20Add%20Review</text>
-      </controlProperties>
-    </control>
-    <control controlID="24" controlTypeID="com.balsamiq.mockups::FieldSet" x="139" y="425" w="505" h="98" measuredW="200" measuredH="170" zOrder="9" locked="false" isInGroup="-1">
+    <control controlID="24" controlTypeID="com.balsamiq.mockups::FieldSet" x="139" y="425" w="505" h="98" measuredW="200" measuredH="170" zOrder="8" locked="false" isInGroup="-1">
       <controlProperties>
         <text>New%20Review</text>
       </controlProperties>
     </control>
-    <control controlID="26" controlTypeID="com.balsamiq.mockups::TextArea" x="152" y="446" w="284" h="68" measuredW="200" measuredH="140" zOrder="10" locked="false" isInGroup="-1">
+    <control controlID="26" controlTypeID="com.balsamiq.mockups::TextArea" x="152" y="446" w="284" h="68" measuredW="200" measuredH="140" zOrder="9" locked="false" isInGroup="-1">
       <controlProperties>
         <italic>true</italic>
         <text>what%20did%20you%20think%3F</text>
       </controlProperties>
     </control>
-    <control controlID="33" controlTypeID="com.balsamiq.mockups::Button" x="451" y="485" w="-1" h="-1" measuredW="110" measuredH="27" zOrder="11" locked="false" isInGroup="-1">
+    <control controlID="33" controlTypeID="com.balsamiq.mockups::Button" x="451" y="485" w="-1" h="-1" measuredW="110" measuredH="27" zOrder="10" locked="false" isInGroup="-1">
       <controlProperties>
         <text>Submit%20Review</text>
       </controlProperties>
     </control>
-    <control controlID="34" controlTypeID="com.balsamiq.mockups::TextInput" x="451" y="446" w="135" h="-1" measuredW="114" measuredH="27" zOrder="12" locked="false" isInGroup="-1">
+    <control controlID="34" controlTypeID="com.balsamiq.mockups::TextInput" x="451" y="446" w="135" h="-1" measuredW="114" measuredH="27" zOrder="11" locked="false" isInGroup="-1">
       <controlProperties>
         <italic>true</italic>
         <text>how%20many%20stars%3F</text>
       </controlProperties>
     </control>
-    <control controlID="35" controlTypeID="com.balsamiq.mockups::Label" x="230" y="551" w="-1" h="-1" measuredW="53" measuredH="21" zOrder="13" locked="false" isInGroup="-1">
+    <control controlID="35" controlTypeID="com.balsamiq.mockups::Label" x="230" y="551" w="-1" h="-1" measuredW="53" measuredH="21" zOrder="12" locked="false" isInGroup="-1">
       <controlProperties>
         <text>%284%20stars%29</text>
       </controlProperties>
     </control>
-    <control controlID="36" controlTypeID="com.balsamiq.mockups::Paragraph" x="138" y="578" w="200" h="58" measuredW="200" measuredH="80" zOrder="14" locked="false" isInGroup="-1">
+    <control controlID="36" controlTypeID="com.balsamiq.mockups::Paragraph" x="138" y="578" w="200" h="58" measuredW="200" measuredH="80" zOrder="13" locked="false" isInGroup="-1">
       <controlProperties>
         <text>It%20was%20so%20uh-mazing%21%0A%20%0AI%2C%20like%2C%20totally%20liked%20it.%20%20OMG%20lulz%21</text>
       </controlProperties>
     </control>
-    <control controlID="37" controlTypeID="com.balsamiq.mockups::Label" x="138" y="387" w="-1" h="-1" measuredW="130" measuredH="21" zOrder="15" locked="false" isInGroup="-1">
+    <control controlID="37" controlTypeID="com.balsamiq.mockups::Label" x="138" y="387" w="-1" h="-1" measuredW="130" measuredH="21" zOrder="14" locked="false" isInGroup="-1">
       <controlProperties>
         <color>13576743</color>
         <text>Review%20can%27t%20be%20blank</text>
       </controlProperties>
     </control>
-    <control controlID="38" controlTypeID="com.balsamiq.mockups::Label" x="138" y="367" w="-1" h="-1" measuredW="126" measuredH="21" zOrder="16" locked="false" isInGroup="-1">
+    <control controlID="38" controlTypeID="com.balsamiq.mockups::Label" x="138" y="367" w="-1" h="-1" measuredW="126" measuredH="21" zOrder="15" locked="false" isInGroup="-1">
       <controlProperties>
         <color>13576743</color>
         <text>Rating%20can%27t%20be%20blank</text>
       </controlProperties>
     </control>
-    <control controlID="39" controlTypeID="com.balsamiq.mockups::Label" x="138" y="335" w="-1" h="-1" measuredW="338" measuredH="21" zOrder="17" locked="false" isInGroup="-1">
+    <control controlID="39" controlTypeID="com.balsamiq.mockups::Label" x="138" y="335" w="-1" h="-1" measuredW="338" measuredH="21" zOrder="16" locked="false" isInGroup="-1">
       <controlProperties>
         <bold>true</bold>
         <color>13576743</color>

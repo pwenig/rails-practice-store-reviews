@@ -5,5 +5,23 @@
       </div>
   <% end %>
   <%= render partial: 'product_description', locals: {product: @product} %>
+
+  <h3>Reviews</h3>
+  <h4>New Reviews</h4>
+  <%= form_for [@product, @review] do |f| %>
+    <%= f.text_area :body %>
+    <br>
+    <%= f.text_field :rating, placeholder: "how many stars?" %>
+    <br>
+
+    <%= f.submit "Submit Review" %>
+  <% end %>
+
+  <% @reviews.each do |review| %>
+    <%= review.user.email %> (<%= review.rating %> stars) <%= time_ago_in_words review.created_at %> ago
+    <br>
+    <%= review.body %>
+  <% end %>
+
 </div>
 
